@@ -14,6 +14,20 @@ sudo apt-get install autoconf automake autotools-dev debhelper dh-make debmake d
 
 sudo apt install sbuild piuparts autopkgtest lintian
 
+
+# May need to move stuff_for_home to your home directory
+
+mv stuff_for_home/* /home
+
+# Rename Direcotry
+
+needs to be in format name-version (example: pm3d-1.01)
+
+cd ..
+mkdir pm3d-1.01
+mv HelloDebian/* pm3d-1.01/
+rm -rf HelloDebian
+
 # Deb Package Set up
 
 
