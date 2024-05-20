@@ -23,10 +23,10 @@ mv stuff_for_home/* /home
 
 needs to be in format name-version (example: pm3d-1.01)
 
-cd ..
-mkdir pm3d-1.01
-mv HelloDebian/* pm3d-1.01/
-rm -rf HelloDebian
+cd ..  
+mkdir pm3d-1.01  
+mv HelloDebian/* pm3d-1.01/  
+rm -rf HelloDebian  
 
 # Deb Package Set up
 
